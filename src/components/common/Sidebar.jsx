@@ -59,7 +59,7 @@ const Sidebar = () => {
                                         className='ml-4 whitespace-nowrap'
                                         initial={{ opacity: 0, width: 0 }}
                                         animate={{ opacity: 1, width: "auto" }}
-                                        exit={{ opacity: 0, width: 0 }}
+                                        exit={{ opacity: 0, width: 0 }}  // AnimatePresence 讓  exit 可執行
                                         transition={{ duration: 0.2, delay: 0.3 }}
                                     >
                                         {item.name}
