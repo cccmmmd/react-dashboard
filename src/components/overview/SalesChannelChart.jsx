@@ -22,14 +22,14 @@ const SalesChannelChart = () => {
 
 			<div className='h-80'>
 				<ResponsiveContainer>
-					<BarChart data={SALES_CHANNEL_DATA}>
-						<CartesianGrid strokeDasharray='3 3' stroke='#9ca3af' />
-						<XAxis dataKey='name' stroke='#E5E7EB' />
-						<YAxis stroke='#E5E7EB' />
+				<BarChart data={SALES_CHANNEL_DATA}>
+						<CartesianGrid strokeDasharray='3 3' stroke='#4B5563' />
+						<XAxis dataKey='name' stroke='#9CA3AF' />
+						<YAxis stroke='#9CA3AF' />
 						<Tooltip
 							contentStyle={{
 								backgroundColor: "rgba(31, 41, 55, 0.8)",
-								borderColor: "#9ca3af",
+								borderColor: "#4B5563",
 							}}
 							itemStyle={{ color: "#E5E7EB" }}
 						/>
