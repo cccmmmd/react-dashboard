@@ -1,7 +1,7 @@
 
 ![screencapture-localhost-5173-2025-02-03-16_33_55](https://github.com/user-attachments/assets/0f571e04-1ecf-409b-bc2c-0128cdb255e7)
 
-# React Dashboard 專案
+# React Dashboard 資料視覺化練習
 
 這是一個使用 React 和 Vite 建立的資料視覺化儀表板專案。
 
