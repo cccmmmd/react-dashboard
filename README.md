@@ -15,21 +15,16 @@
 ## 技術架構
 
 ### 核心技術
-- **React** (v18.3.1)  
-- **Vite** (v6.0.5)  
-- **React Router DOM** (v7.1.3)  
-- **Tailwind CSS** (v4.0.0)  
+- **React**
+- **Vite**
+- **React Router DOM**
+- **Tailwind CSS** 
 
 ### UI 和動畫
-- **Framer Motion** (v12.0.6) - React 的動畫函式庫
-- **Lucide React** (v0.474.0) - 美觀的 icon 組件
-- **Recharts** (v2.15.0) - React 的圖表函式庫
-- **React Helmet Async** (v2.0.5) - React 的頁面 title 管理
-
-### 開發工具
-- **ESLint** (v9.17.0) - JavaScript 和 JSX 的程式碼檢查工具
-- **TypeScript** 支援 (@types/react v18.3.18)
-- **Vite React Plugin** - Vite 的 React 插件
+- **Framer Motion** - React 的動畫函式庫
+- **Lucide React** - 美觀的 icon 組件
+- **Recharts** - React 的圖表函式庫
+- **React Helmet Async** - React 的頁面 title 管理
 
 ## 安裝說明
 
