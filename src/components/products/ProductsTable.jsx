@@ -116,9 +116,8 @@ const ProductsTable = () => {
   const handleSearch = (e) => {
     const term = e.target.value.toLowerCase();
     setSearchTerm(term);
-    const filtered = PRODUCT_DATA.filter(
-      (product) =>
-        product.name.toLowerCase().includes(term)
+    const filtered = PRODUCT_DATA.filter((product) =>
+      product.name.toLowerCase().includes(term)
     );
 
     setFilteredProducts(filtered);
