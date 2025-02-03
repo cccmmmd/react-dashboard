@@ -32,22 +32,28 @@
 
 ## 安裝說明
 
-1. 安裝依賴：
+1. 複製專案至本地：
+```bash
+git clone [專案網址]
+cd react-dashboard
+```
+
+2. 安裝相依套件：
 ```bash
 npm install
 ```
 
-2. 啟動開發伺服器：
+3. 啟動開發伺服器：
 ```bash
 npm run dev
 ```
 
-3. 建構生產版本：
+4. 建構生產版本：
 ```bash
 npm run build
 ```
 
-4. 預覽生產版本：
+5. 預覽生產版本：
 ```bash
 npm run preview
 ```
