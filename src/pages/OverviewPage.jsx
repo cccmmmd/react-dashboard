@@ -1,15 +1,21 @@
-import { motion } from "framer-motion"
-import { BarChart2, ShoppingBag, Users, Zap } from "lucide-react"
+import { motion } from "framer-motion";
+import { BarChart2, ShoppingBag, Users, Zap } from "lucide-react";
+import { Helmet } from 'react-helmet-async';
 
-import Header from "../components/common/Header"
-import StatCard from "../components/common/StatCard"
-import SalesOverviewChart from "../components/overview/SalesOverviewChart"
-import CategoryDistributionChart from "../components/overview/CategoryDistributionChart"
-import SalesChannelChart from "../components/overview/SalesChannelChart"
+import Header from "../components/common/Header";
+import StatCard from "../components/common/StatCard";
+import SalesOverviewChart from "../components/overview/SalesOverviewChart";
+import CategoryDistributionChart from "../components/overview/CategoryDistributionChart";
+import SalesChannelChart from "../components/overview/SalesChannelChart";
 
 const OverviewPage = () => {
   return (
     <div className='flex-1 overflow-auto relative z-10'>
+      <Helmet>
+				<title>Overview Page</title>
+				<meta name="description" content="歡迎來到 Overview Page" />
+				<meta name="keywords" content="react, dashboard, overview" />
+			</Helmet>
 			<Header title='Overview' />
 
       <main className='max-w-7xl mx-auto py-6 px-4 lg:px-8'>

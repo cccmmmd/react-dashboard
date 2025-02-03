@@ -1,5 +1,6 @@
 import { CheckCircle, Clock, DollarSign, ShoppingBag } from "lucide-react";
 import { motion } from "framer-motion";
+import { Helmet } from 'react-helmet-async';
 
 import Header from "../components/common/Header";
 import StatCard from "../components/common/StatCard";
@@ -15,6 +16,11 @@ const orderStats = {
 const OrdersPage = () => {
 	return (
 		<div className='flex-1 relative z-10 overflow-auto'>
+			<Helmet>
+				<title>Orders Page</title>
+				<meta name="description" content="歡迎來到 Orders Page" />
+				<meta name="keywords" content="react, dashboard, orders" />
+			</Helmet>
 			<Header title={"Orders"} />
 
 			<main className='max-w-7xl mx-auto py-6 px-4 lg:px-8'>
